@@ -6,7 +6,7 @@ const App = () => {
     
     return (
         <div id='wrapper'>
-         <h3>test</h3>
+         <h3>resumeBuilder</h3>
         </div>
     );
 };
