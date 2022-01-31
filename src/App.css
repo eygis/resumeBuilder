@@ -2,3 +2,42 @@
   margin: 0;
   padding: 0;
 }
+
+#wrapper {
+  background-color: #0cbea8;
+  height: 83vh;
+  width: 92%;
+  margin: 1em auto 1em auto;
+  border-radius: 2em;
+  padding: 2em;
+  filter: drop-shadow(0 0 0.75rem blue);
+}
+
+#welcome {
+  text-align: center;
+}
+
+#title {
+  margin: 2em auto 0 auto;
+  font-size: 3em;
+}
+
+#subtitle {
+  margin-top: 2em;
+  font-size: 2em;
+}
+
+#startButton {
+  margin: 5em auto auto auto;
+  font-size: 1.2em;
+  width: 20%;
+  transition: 0.5s;
+}
+
+#startButton:hover {
+  transform: scale(2);
+}
+
+.fa-chevron-right {
+  margin-left: 0.5em;
+}
