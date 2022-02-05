@@ -29,6 +29,7 @@
 #startButton {
   margin: 5em auto auto auto;
   font-size: 1.2em;
+  text-align: center;
   width: 20%;
   transition: 0.5s;
 }
@@ -39,4 +40,27 @@
 
 .fa-chevron-right {
   margin-left: 0.5em;
+}
+
+.move {
+  position: absolute;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.basicInput {
+  display: block;
+  width: 30%;
+  height: 2em;
+  margin: 5em auto;
+  text-align: center;
+}
+
+#objectiveTextArea {
+  display: block;
+  margin: 5em auto;
+  width: 60%;
+  height: 10em;
 }
