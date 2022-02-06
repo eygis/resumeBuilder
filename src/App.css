@@ -42,6 +42,10 @@
   margin-left: 0.5em;
 }
 
+.fa-chevron-left {
+  margin-right: 0.5em;
+}
+
 .move {
   position: absolute;
   bottom: 3em;
@@ -58,9 +62,43 @@
   text-align: center;
 }
 
-#objectiveTextArea {
+#objectiveTextArea,
+#skillsTextArea {
   display: block;
   margin: 5em auto;
   width: 60%;
   height: 10em;
+}
+
+#buttonArea {
+  display: flex;
+  justify-content: space-between;
+  margin: 5em auto auto auto;
+  font-size: 1.2em;
+  text-align: center;
+  width: 20%;
+  transition: 0.5s;
+}
+
+#education {
+  text-align: center;
+}
+
+#eduDegree,
+#degreeLevel {
+  display: inline;
+  margin: auto;
+}
+
+#eduDegree {
+  margin-left: 22.3em;
+}
+
+#degreeLevel {
+  margin-left: 1em;
+}
+
+.pageType {
+  font-size: 2em;
+  text-align: center;
 }
