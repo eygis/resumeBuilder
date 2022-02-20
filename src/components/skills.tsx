@@ -4,7 +4,7 @@ let Skills = () : ReactElement => {
     return (
 <div id='skills'>
     <p className='pageType'>Skills / Achievements</p>
-    <textarea id='skillsTextArea' placeholder='Please list any relevant skills and/or personal achievements.' />
+    <textarea id='skillsTextArea' placeholder='Please list any skills and/or personal achievements you consider relevant.' />
 </div>
     )}
 export default Skills
