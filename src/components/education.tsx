@@ -8,6 +8,7 @@ let Education = () : ReactElement => {
     <input id="eduDegree" className='basicInput' type='text' placeholder='Field of Study' required /><select id='degreeLevel'>
         <option value='noValue'>Please select your highest attained educational level.</option>
         <option value='HS'>High School Diploma</option>
+        <option value='AA/AS'>AA/AS</option>
         <option value='BA/BS'>BA/BS</option>
         <option value='MA/MS'>MA/MS</option>
         <option value='PhD'>PhD</option>
