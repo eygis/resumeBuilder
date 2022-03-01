@@ -9,7 +9,7 @@ let Education = () : ReactElement => {
         <option value='noValue'>Please select your highest attained educational level.</option>
         <option value='HS'>High School Diploma</option>
         <option value='AA/AS'>Associate's Degree</option>
-        <option value='BA/BS'>BA/BS</option>
+        <option value='BA/BS'>Bachelor's Degree</option>
         <option value='MA/MS'>MA/MS</option>
         <option value='PhD'>PhD</option>
         <option value='Other'>Other</option>
