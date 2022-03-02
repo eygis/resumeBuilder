@@ -10,7 +10,7 @@ let Education = () : ReactElement => {
         <option value='HS'>High School Diploma</option>
         <option value='AA/AS'>Associate's Degree</option>
         <option value='BA/BS'>Bachelor's Degree</option>
-        <option value='MA/MS'>MA/MS</option>
+        <option value='MA/MS'>Master's Degree</option>
         <option value='PhD'>PhD</option>
         <option value='Other'>Other</option>
     </select>
