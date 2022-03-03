@@ -11,7 +11,7 @@ let Education = () : ReactElement => {
         <option value='AA/AS'>Associate's Degree</option>
         <option value='BA/BS'>Bachelor's Degree</option>
         <option value='MA/MS'>Master's Degree</option>
-        <option value='PhD'>PhD</option>
+        <option value='PhD'>Doctorate</option>
         <option value='Other'>Other</option>
     </select>
     <input id='eduDates' className='basicInput' type='text' placeholder='Dates Attended' required />
